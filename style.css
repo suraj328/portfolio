@@ -74,10 +74,13 @@ span.wave {
 
 .first-image{
     position: absolute;
-    right:0;
+    right: 30%;
 }
 .boyimage{
   height: 400px;
+  animation: bounce 1.2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
 
 @media only screen and (max-width : 1183px){
@@ -325,4 +328,9 @@ footer{
   padding-top: 2%;
   color: #868e96;
   text-align: center;
+}
+
+.bc-gif{
+  background-image: url('./Image/bc2.gif');
+  background-repeat: no-repeat;
 }
